@@ -8,9 +8,9 @@ curl --location 'http://localhost:9191/products' \
 --data '{
     "type": "CreateProduct",
     "product": {
-        "name": "Books",
-        "description": "KK publication",
-        "price": 999
+        "name": "Rust Programming",
+        "description": "Rust Programming",
+        "price": 20
     }
 }'
 ```
@@ -23,9 +23,9 @@ curl --location --request PUT 'http://localhost:9191/products/1' \
     "type": "UpdateProduct",
     "product": {
         "id": 1,
-        "name": "Watch",
-        "description": "Samsung latest model",
-        "price": 58000.0
+        "name": "Java Programming",
+        "description": "Java Programming",
+        "price": 25
     }
 }'
 ```
