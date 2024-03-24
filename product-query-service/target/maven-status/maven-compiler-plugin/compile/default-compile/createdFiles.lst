@@ -1,0 +1,10 @@
+com\demo\dto\ProductEvent.class
+com\demo\dto\ProductRatingDto.class
+com\demo\config\WebRatingClientConfig.class
+com\demo\ProductQueryServiceApplication.class
+com\demo\service\RatingService.class
+com\demo\controller\ProductQueryController.class
+com\demo\entity\Product.class
+com\demo\dto\ReviewDto.class
+com\demo\service\ProductQueryService.class
+com\demo\repository\ProductRepository.class

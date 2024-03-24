@@ -1,0 +1,5 @@
+com\demo\ProductRatingServiceApplication.class
+com\demo\service\RatingService.class
+com\demo\controller\RatingController.class
+com\demo\dto\ProductRatingDto.class
+com\demo\dto\ReviewDto.class

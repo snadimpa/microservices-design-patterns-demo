@@ -1,0 +1,40 @@
+server:
+  port: 9293
+spring:
+  application:
+    name: product-db-sync-service
+  datasource:
+    continue-on-error: true
+    initialize: true
+    password: password
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: com.demo.dto
+  zipkin:
+    base-url: http://localhost:9411/
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0

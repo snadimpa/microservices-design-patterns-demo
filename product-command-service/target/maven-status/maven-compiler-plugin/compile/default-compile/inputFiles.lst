@@ -1,0 +1,6 @@
+G:\DemoMicroservice\cqrs-design-pattern-main\cqrs-design-pattern-main\product-command-service\src\main\java\com\demo\controller\ProductCommandController.java
+G:\DemoMicroservice\cqrs-design-pattern-main\cqrs-design-pattern-main\product-command-service\src\main\java\com\demo\dto\ProductEvent.java
+G:\DemoMicroservice\cqrs-design-pattern-main\cqrs-design-pattern-main\product-command-service\src\main\java\com\demo\repository\ProductRepository.java
+G:\DemoMicroservice\cqrs-design-pattern-main\cqrs-design-pattern-main\product-command-service\src\main\java\com\demo\entity\Product.java
+G:\DemoMicroservice\cqrs-design-pattern-main\cqrs-design-pattern-main\product-command-service\src\main\java\com\demo\ProductCommandServiceApplication.java
+G:\DemoMicroservice\cqrs-design-pattern-main\cqrs-design-pattern-main\product-command-service\src\main\java\com\demo\service\ProductCommandService.java

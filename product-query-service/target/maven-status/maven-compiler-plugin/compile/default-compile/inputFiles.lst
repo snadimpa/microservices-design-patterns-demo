@@ -1,0 +1,10 @@
+G:\DemoMicroservice\microservices-design-patterns-demo\product-query-service\src\main\java\com\demo\ProductQueryServiceApplication.java
+G:\DemoMicroservice\microservices-design-patterns-demo\product-query-service\src\main\java\com\demo\service\ProductQueryService.java
+G:\DemoMicroservice\microservices-design-patterns-demo\product-query-service\src\main\java\com\demo\dto\ReviewDto.java
+G:\DemoMicroservice\microservices-design-patterns-demo\product-query-service\src\main\java\com\demo\controller\ProductQueryController.java
+G:\DemoMicroservice\microservices-design-patterns-demo\product-query-service\src\main\java\com\demo\dto\ProductEvent.java
+G:\DemoMicroservice\microservices-design-patterns-demo\product-query-service\src\main\java\com\demo\config\WebRatingClientConfig.java
+G:\DemoMicroservice\microservices-design-patterns-demo\product-query-service\src\main\java\com\demo\dto\ProductRatingDto.java
+G:\DemoMicroservice\microservices-design-patterns-demo\product-query-service\src\main\java\com\demo\service\RatingService.java
+G:\DemoMicroservice\microservices-design-patterns-demo\product-query-service\src\main\java\com\demo\entity\Product.java
+G:\DemoMicroservice\microservices-design-patterns-demo\product-query-service\src\main\java\com\demo\repository\ProductRepository.java

@@ -1,0 +1,5 @@
+com\demo\ProductDbSyncServiceApplication.class
+com\demo\dto\ProductEvent.class
+com\demo\entity\Product.class
+com\demo\service\ProductDbSyncService.class
+com\demo\repository\ProductRepository.class
