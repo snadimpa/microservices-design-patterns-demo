@@ -2,6 +2,7 @@ package com.demo.service;
 
 import com.demo.dto.ProductRatingDto;
 import com.demo.dto.ReviewDto;
+import io.micrometer.observation.annotation.Observed;
 import org.springframework.stereotype.Service;
 
 import jakarta.annotation.PostConstruct;
@@ -12,6 +13,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @Service
+@Observed
 public class RatingService {
 
     private Map<Integer, ProductRatingDto> map;

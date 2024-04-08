@@ -2,6 +2,7 @@ package com.demo.service;
 
 import com.demo.dto.ProductRatingDto;
 import io.github.resilience4j.bulkhead.annotation.Bulkhead;
+import io.micrometer.observation.annotation.Observed;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -13,6 +14,7 @@ import org.springframework.web.service.annotation.HttpExchange;
 import java.util.Collections;
 
 @HttpExchange
+@Observed
 public interface RatingService {
 
     Logger log = LoggerFactory.getLogger(RatingService.class);

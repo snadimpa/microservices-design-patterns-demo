@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: registry-service
+
+  cloud:
+    compatibility-verifier:
+      enabled: false
 eureka:
   instance:
     hostname: localhost

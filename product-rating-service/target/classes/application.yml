@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: product-rating-service
+  cloud:
+    compatibility-verifier:
+      enabled: false
   datasource:
     continue-on-error: true
     initialize: true
@@ -32,3 +35,15 @@ management:
   tracing:
     sampling:
       probability: 1.0
+
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics, prometheus
+  endpoint:
+    health:
+      show-details: always
+
+  observations:
+    key-values:
+      application: product-rating-service
